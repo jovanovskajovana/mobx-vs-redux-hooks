@@ -1,11 +1,13 @@
 {
   "author": "Jovana Jovanovska",
-  "description": "Example app of using Mobx with React Hooks",
+  "description": "Example app using Mobx with React Hooks",
   "name": "mobx",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "mobx": "^6.0.1",
+    "mobx-react": "^7.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3"

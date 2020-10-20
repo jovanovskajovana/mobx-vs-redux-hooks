@@ -1,6 +1,6 @@
 {
   "author": "Jovana Jovanovska",
-  "description": "Example app of using Redux with React Hooks",
+  "description": "Example app using Redux with React Hooks",
   "name": "redux",
   "version": "0.1.0",
   "private": true,
