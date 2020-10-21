@@ -1,10 +1,10 @@
 import { createContext, useContext } from 'react'
 
-import CatStore from './catStore'
-import OwnerStore from './ownerStore'
+import CatsStore from './stores/cats'
+import OwnerStore from './stores/owner'
 
 const storesContext = createContext({
-  catStore: new CatStore(),
+  catsStore: new CatsStore(),
   ownerStore: new OwnerStore(),
 })
 

@@ -1,7 +1,10 @@
-import { makeAutoObservable } from "mobx"
+import { makeAutoObservable } from 'mobx'
 
 class OwnerStore {
-  owner = 'Jovana'
+  owner = { 
+    name: 'Jovana', 
+    town: 'Ljubljana'
+  }
 
   constructor() {
     makeAutoObservable(this)

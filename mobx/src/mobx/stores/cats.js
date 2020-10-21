@@ -1,6 +1,6 @@
-import { makeAutoObservable } from "mobx"
+import { makeAutoObservable } from 'mobx'
 
-class CatStore {
+class CatsStore {
   cats = ['mi', 'ci']
 
   constructor() {
@@ -16,4 +16,4 @@ class CatStore {
   }
 }
 
-export default CatStore 
+export default CatsStore 
