@@ -1,6 +1,6 @@
 {
   "author": "Jovana Jovanovska",
-  "description": "Example app of using Redux with React Hooks",
+  "description": "Example app using Redux with React Hooks",
   "name": "redux",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,9 @@
   "dependencies": {
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
